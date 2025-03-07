@@ -1,0 +1,14 @@
+{
+  "name": "explorer-app",
+  "version": "1.0.0",
+  "workspace": ["backend", "frontend"],
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
